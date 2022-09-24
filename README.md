@@ -12,12 +12,16 @@ To write a program to find the 2-norm of the matrix and display the result in tw
     3. Find the 2-norm of the matrix using np.linalg.norm()
 	4. Print the norm of the matrix in two decimal places.
 ## Program:
-```
-
-
-
-
-
+```python
+'''
+Program to find 2-norm of a matrix.
+Developed by: yourname
+RegisterNumber: 
+'''
+import numpy as np
+arr=np.array(eval(input()))
+n = np.linalg.norm(arr,2)
+print("{:.2f}".format(n)
 
 ```
 ## Sample Input and Output:
